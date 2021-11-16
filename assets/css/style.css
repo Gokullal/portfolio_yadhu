@@ -5,10 +5,19 @@
 body {
   background-color: whitesmoke;
 }
+.content-container{
+  background-image: url("../images/homehead2.png");
+  background-size: cover;
+  
+}
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 70px;
+  padding: 10px 150px;
+}
+.section-1{
+  padding: 0px 150px;
+  height: 600px;
 }
 .nav-items {
   display: flex;
@@ -23,7 +32,7 @@ body {
 }
 .section1 {
   width: 40%;
-  margin: 50px 70px;
+  margin: 50px 0px;
 }
 .section-1 h3 {
   color: #2f80ed;
@@ -73,7 +82,7 @@ hr {
   height: 300px;
 }
 .inner-sec-1-container {
-  margin-top: 40%;
+  margin-top: 30%;
 }
 .inner-sec-1 h3 {
   margin-bottom: 25px;
@@ -95,4 +104,12 @@ hr {
 }
 .inner-sec-2 img {
   width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .section1 {
+    width: 100%;
+  }
+  .section-1{
+    height: auto;
+  }
 }
